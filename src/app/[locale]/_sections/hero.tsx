@@ -7,51 +7,23 @@ const Flowers = () => (
     justifyContent='space-between'
     overflow='hidden'
     position='absolute'
-    top={0}
+    top={['110px', '260px']}
     width='100vw'
   >
     <Flex>
       <Image
-        style={{ transform: 'translate(-60px, 100px)' }}
         src='/images/hero/flores.png'
         alt='arreglo floral'
-        width={300}
-        height={300}
-      />
-      <Image
-        style={{ transform: 'translate(-160px, 100px)' }}
-        src='/images/hero/flores.png'
-        alt='arreglo floral'
-        width={300}
-        height={300}
-      />
-      <Image
-        style={{ transform: 'translate(-260px, 100px)' }}
-        src='/images/hero/flores.png'
-        alt='arreglo floral'
+        style={{ transform: 'rotateY(180deg) translateX(35px)' }}
         width={300}
         height={300}
       />
     </Flex>
     <Flex>
       <Image
-        style={{ transform: 'translate(260px, 100px)' }}
         src='/images/hero/flores.png'
         alt='arreglo floral'
-        width={300}
-        height={300}
-      />
-      <Image
-        style={{ transform: 'translate(160px, 100px)' }}
-        src='/images/hero/flores.png'
-        alt='arreglo floral'
-        width={300}
-        height={300}
-      />
-      <Image
-        style={{ transform: 'translate(60px, 100px)' }}
-        src='/images/hero/flores.png'
-        alt='arreglo floral'
+        style={{ transform: 'translateX(35px)' }}
         width={300}
         height={300}
       />
