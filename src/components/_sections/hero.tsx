@@ -40,7 +40,7 @@ const MobileView = () => {
           Occaecat nisi id laboris ad veniam sint mollit.
           est.
         </Title>
-        <Text pb={8} fontStyle='italic' as='p' textAlign='center'>
+        <Text pb={8} as='p' textAlign='center'>
           Id amet tempor sint cupidatat tempor Lorem quis elit labore pariatur
           mollit esse. Ipsum dolore excepteur tempor ea. Sit culpa qui et do
           incididunt in officia tempor labore officia.

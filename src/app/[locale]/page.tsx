@@ -1,6 +1,6 @@
 import { Box } from '@chakra-ui/react';
 import {useTranslations} from 'next-intl';
-import { Hero, Services } from '@/components/_sections';
+import { Hero, Services, Gallery } from '@/components/_sections';
  
 export default function Index() {
   const t = useTranslations('Index');
@@ -10,11 +10,13 @@ export default function Index() {
       <Box as='section' id='home'>
         <Hero />
       </Box>
-      <Box as='section' minH='calc(100dvh - 60px)' id='servicios'>
+      <Box as='section' id='servicios'>
         <Services />
       </Box>
-      <Box as='section' minH='calc(100dvh - 60px)' id='galeria'>galeria</Box>
-      <Box as='section' minH='calc(100dvh - 60px)' id='contacto'>contacto</Box>
+      <Box as='section' id='galeria'>
+        <Gallery />
+      </Box>
+      <Box as='section' minH='60px' id='contacto'>contacto</Box>
     </div>
   );
 }

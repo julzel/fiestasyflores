@@ -16,6 +16,7 @@
     "@fontsource/lato": "^5.0.18",
     "@fontsource/playfair-display": "^5.0.18",
     "framer-motion": "^10.16.16",
+    "keen-slider": "^6.8.6",
     "next": "14.0.4",
     "next-intl": "^3.4.0",
     "react": "^18",

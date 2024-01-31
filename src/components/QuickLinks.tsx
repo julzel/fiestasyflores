@@ -29,7 +29,7 @@ const QuickLinkItem: React.FC<QuickLinkItemProps> = ({ icon, label, link }) => (
 
 const QuickLinks = () => {
   return (
-    <Flex alignItems='center' justifyContent='space-between' px={4} pb={8}>
+    <Flex alignItems='center' justifyContent='space-between' px={4} pb={8} transform='scale(0.85)'>
       <QuickLinkItem
         icon={<PiFlowerTulipThin />}
         label='Servicios'

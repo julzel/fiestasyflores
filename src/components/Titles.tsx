@@ -32,7 +32,7 @@ const Title: React.FC<TitleProps> = ({ type, children, ...props }) => {
       as = 'h2';
       break;
     case TitleType.Subtitle:
-      size = 'l';
+      size = 'lg';
       as = 'h3';
       break;
     case TitleType.Subtitle2:

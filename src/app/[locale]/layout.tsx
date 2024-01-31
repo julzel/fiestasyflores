@@ -1,11 +1,12 @@
 import React, { ReactNode } from 'react';
+import { Box, Flex } from '@chakra-ui/react';
 import Providers from '@/providers';
 import Header from '@/components/Header';
-import { Box, Flex } from '@chakra-ui/react';
-import '../globals.css';
-import "@fontsource/lato";
-import "@fontsource/playfair-display";
+import 'keen-slider/keen-slider.min.css'
 import "@fontsource/playfair-display/400-italic.css"
+import "@fontsource/playfair-display";
+import "@fontsource/lato";
+import '../globals.css';
 
 interface LocaleLayoutProps {
   children: ReactNode;

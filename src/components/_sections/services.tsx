@@ -51,12 +51,11 @@ const ListDetails = ({ icon }: ListDetailsProps): JSX.Element => {
 const MobileView = () => {
   return (
     <BackgroundBox>
-      <Box p={8} position='relative' zIndex={1}>
-        <Box bg='whiteAlpha.500' p={[4, 8]}>
+      <Box py={16} px={8} position='relative' zIndex={1}>
+        <Box>
           <Title
-            pt={16}
-            px={2}
             pb={8}
+            px={2}
             textAlign='center'
             fontStyle='italic'
             type='section'
@@ -64,21 +63,21 @@ const MobileView = () => {
             Nuestros servicios
           </Title>
 
-          <Box py={4}>
+          <Box bg='whiteAlpha.500' p={3} mb={3} borderRadius='5px'>
             <Title fontStyle='italic' type='subtitle' pb={2}>
               Maestro de ceremonias
             </Title>
 
             <ListDetails icon={PiMicrophoneStageThin} />
           </Box>
-          <Box py={4}>
+          <Box bg='whiteAlpha.500' p={3} mb={3} borderRadius='5px'>
             <Title fontStyle='italic' type='subtitle' pb={2}>
               Planeamiento de eventos
             </Title>
 
             <ListDetails icon={PiCakeThin} />
           </Box>
-          <Box py={4}>
+          <Box bg='whiteAlpha.500' p={3} mb={3} borderRadius='5px'>
             <Title fontStyle='italic' type='subtitle' pb={2}>
               Decoración Floral
             </Title>
