@@ -10,7 +10,7 @@ enum TitleType {
 }
 
 interface TitleProps extends HeadingProps {
-  type: TitleType;
+  type: string;
   children: ReactNode;
 }
 
@@ -20,28 +20,28 @@ const Title: React.FC<TitleProps> = ({ type, children, ...props }) => {
 
   switch (type) {
     case TitleType.Banner:
-      size = '4xl';
+      size = '3xl';
       as = 'h2';
       break;
     case TitleType.Page:
-      size = '3xl';
+      size = '2xl';
       as = 'h1';
       break;
     case TitleType.Section:
-      size = '2xl';
+      size = 'xl';
       as = 'h2';
       break;
     case TitleType.Subtitle:
-      size = 'xl';
+      size = 'l';
       as = 'h3';
       break;
     case TitleType.Subtitle2:
-      size = 'l';
+      size = 'md';
       as = 'h4';
       break;
     default:
-      size = 'md';
-      as = 'p';
+      size = 'sm';
+      as = 'h5';
   }
 
   return (

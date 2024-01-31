@@ -1,5 +1,5 @@
 'use client';
-import useIsMobileScreen from '@/hooks/useIsMobile';
+import useIsMobileScreen from '@/hooks/useIsMobileScreen';
 import HeaderDesktop from '@/components/HeaderDesktop';
 import HeaderMobile from '@/components/HeaderMobile';
 

@@ -3,10 +3,10 @@ import { extendTheme, ThemeConfig } from '@chakra-ui/react';
 // Your brand colors
 const colors = {
   brand: {
-    primary: '#051e1c', // Dark green
-    secondary: '#fffdf1', // Off-white
-    primaryHover: '#043d3a', // Darker shade of primary for hover
-    secondaryHover: '#cccac0', // Lighter shade of secondary for hover
+    primary: '#012518', // Dark green
+    secondary: '#f9f4ea', // Off-white
+    primaryHover: '#051e1c', // Darker shade of primary for hover
+    secondaryHover: '#fffdf1', // Lighter shade of secondary for hover
   },
   text: {
     primary: '#30312c', // Dark grey
@@ -16,13 +16,17 @@ const colors = {
 
 // Theme configuration for color modes
 const config: ThemeConfig = {
-  initialColorMode: 'light',
+  initialColorMode: 'dark',
   useSystemColorMode: false,
 };
 
 // Extending the theme
 const theme = extendTheme({
   ...config,
+  fonts: {
+    heading: '"Playfair Display", serif',
+    body: '"Lato", serif', // or any other font for the body
+  },
   colors: {
     ...colors, // Spreading your brand colors directly into the theme's colors
   },

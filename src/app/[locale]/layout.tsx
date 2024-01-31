@@ -3,6 +3,9 @@ import Providers from '@/providers';
 import Header from '@/components/Header';
 import { Box, Flex } from '@chakra-ui/react';
 import '../globals.css';
+import "@fontsource/lato";
+import "@fontsource/playfair-display";
+import "@fontsource/playfair-display/400-italic.css"
 
 interface LocaleLayoutProps {
   children: ReactNode;
@@ -16,7 +19,9 @@ export default function LocaleLayout({
   params: { locale },
 }: LocaleLayoutProps) {
   return (
-    <html lang={locale}>
+    <html
+      lang={locale}
+    >
       <body>
         <Providers>
           <Header />

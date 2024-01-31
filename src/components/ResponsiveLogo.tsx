@@ -1,6 +1,6 @@
 'use client';
 import Image from "next/image";
-import useIsMobileScreen from "@/hooks/useIsMobile";
+import useIsMobileScreen from "@/hooks/useIsMobileScreen";
 
 const logoSrc = '/images/brand/logo.png';
 
